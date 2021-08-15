@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    font-family: sans-serif; 
+    overflow-x: hidden;
+    background-color: rgba(199, 209, 220, 0.83);
+ }
+ .header{
+    width:100%;
+     height:100px;
+     margin:0;
+     padding:0;
+     background-color:black;
+ }
+ .logo{
+    text-align: center;
+    padding-top:18px;
+}
+
+.topnav{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.tabs{
+    width:100%;
+}
+.tabs a{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    width:20%;
+    float: left;
+    background-color:rgba(62, 71, 80, 0.83);
+    text-align:center;
+}
+.tabs a:hover{
+    color:rgba(199, 209, 220, 0.83);
+    background-color:rgb(67, 60, 60);
+}
+
+.details{
+    width:100%;
+    text-align:center;
+}
+.head{
+    width:100%;
+    text-align:center;
+    font-size: x-large;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+#selected{
+    color:rgba(199, 209, 220, 0.83);
+    background-color:black;
+}
+label{
+    font-size: large; 
+    font-family: monospace;  
+}
+input{
+    border-radius: 5px;
+    height:20px;
+    background-color: rgba(221, 223, 225, 0.83);
+    font-size: large;
+}
+#submit{
+    width:120px;
+    height:25px;
+    background-color:black;
+    color: whitesmoke; 
+    font-size: larger;
+}
+#submit:hover{
+    background-color:whitesmoke;
+    color: black; 
+    font-size: larger;
+    font-weight: bold;
+}
