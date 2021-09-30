@@ -67,7 +67,7 @@ if (isset($_POST['logout'])){
                if($_POST['sortby']=='pricel2h') {
                 $sql="select * from menu where itemname LIKE '%".$value."%' AND username = '".$_SESSION['login']."' ORDER BY price ASC";
                } else if($_POST['sortby']=='priceh2l') {
-                $sql="select * from menu where itemname LIKE '%".$value."%' AND username='".$_SESSION['login']."' BY price DESC";  
+                $sql="select * from menu where itemname LIKE '%".$value."%' AND username='".$_SESSION['login']."' ORDER BY price DESC";  
                } else {
                 $sql="select * from menu where itemname LIKE '%".$value."%' AND username='".$_SESSION['login']."'";
                }
@@ -134,8 +134,8 @@ if (isset($_POST['logout'])){
           echo "</table>";
     }    
     else{
-        echo "<img class=\"oops\" src=\"images/nodata.png\" width =\"350px\" >";
-        echo "<h1 style=\"width:100%;text-align:center;margin-left:-20px;color:rgba(62, 71, 80, 0.83);\"> NO DATA FOUND</h1>";
+        echo "<img class=\"oops\" src=\"images/nodata.png\" width =\"350px\" style=\"margin-left: 50%;transform: translateX(-50%)\">";
+        echo "<h1 style=\"width:100%;text-align:center;color:rgba(62, 71, 80, 0.83);\"> NO DATA FOUND</h1>";
     }
 
   ?>

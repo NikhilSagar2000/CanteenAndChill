@@ -66,9 +66,7 @@ tr:nth-child(even) {
     color:rgba(199, 209, 220, 0.83);
     background-color:rgb(82, 75, 75);
 }
-.oops {
- margin-left:35%;
-}
+
 .filter{
     width:100%;
 }

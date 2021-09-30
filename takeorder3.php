@@ -167,5 +167,6 @@ if(isset($_POST['cancelorder'])){
 else{
   header("location:takeorder.php");
 }
-         ?>
-        
+?>
+</body>
+</html>

@@ -145,15 +145,12 @@ if(isset($_POST['cancelorder'])){
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script>
 
-                
-
                   function changehref(unique){
                     var res=confirm('Are you sure you want to add this item in cart?');
                     if(res==true){
                     var quantity = $(".quantity"+unique).val() ;
                     var oldUrl = $(".href"+unique).attr("href");
                     var newUrl = oldUrl+'&quantity='+quantity;
-
                     $(".href"+unique).attr("href", newUrl);
                     }
                     else{
@@ -168,3 +165,5 @@ if(isset($_POST['cancelorder'])){
     header("location:takeorder.php");
   }
   ?>
+</body>
+</html>
